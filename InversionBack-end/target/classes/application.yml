@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: INVESTMENT-TEST
+  profiles:
+    active: development
+
+server:
+  port: 8080
+  servlet: 
+    context-path: "/myservice" 
+
+testApplication:
+  dateFormat: 
+    time: "HH:mm:ss"
+    date: "yyyy-MM-dd"
+    dateTime: "yyyy-MM-dd HH:mm:ss"
